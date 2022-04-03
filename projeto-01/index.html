@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <title>Site 01 - Bootstrap</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./images/logo03.jpg" alt="Logo">
+                </div>
+
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>Somos uma empresa especializada em serviços e soluções de alta tecnologia focada em desenvolvimento Full Stack.</p>
+                    <p>A companhia tem se destacado no desenvolvimento de soluções críticas e tecnologias emergentes, melhorias de serviços eletrônicos no intuito de agregar valor e melhorias para nossos clientes.</p>
+                    <p>Estamos empenhados em fornecer soluções de alta tecnologia excepcionais e inovadoras que agregam valor real e que vai além do esperado.</p>
+                </div>
+
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/img-sobre2.jpg" alt="Sobre nós" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>O que oferecemos</h2>
+
+                    <div class="card">
+                        <img src="./images/img-back.jpg" alt="Back-End" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Back-End</h5>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/img-bd.jpg" alt="Banco-de-Dados" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Banco de Dados</h5>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/img-develop.jpg" alt="Front-End" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Front-End</h5>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p class="text-form">Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu Nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="Digite seu E-mail">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="" rows="10"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar cotação</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-reader">
+                    <h5 class="modal-title">Desenvolvimento Back-End</h5>
+                </div>
+
+                <div class="modal-body">
+                    <p class="modal-parag">Desenvolvemos todo o back-end para que seu portal web funcione de maneira correta e, com todos os testes necessários para dar a melhor performance em seu produto.</p>
+                    <h6>Tecnologias utilizadas</h6>
+                    <p class="modal-parag">Node.js</p>
+                    <p class="modal-parag">Python</p>
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Fechar</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+    
+                <div class="modal-reader">
+                    <h5 class="modal-title">Desenvolvimento Banco de Dados</h5>
+                </div>
+    
+                <div class="modal-body">
+                    <p class="modal-parag">Criação de Banco de dados excluisivos, de acordo com as necessidados de sua empresa.</p>
+                    <h6>Tecnologias utilizadas</h6>
+                    <p class="modal-parag">PostgreSql</p>                        
+                </div>
+    
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Fechar</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+    
+                <div class="modal-reader">
+                    <h5 class="modal-title">Desenvolvimento Front-End</h5>
+                </div>
+    
+                <div class="modal-body">
+                    <p class="modal-parag">Criamos a página de sua empresa, com a integração completa de back-end e banco de dados, para dar a melhor experiência aos visitantes de seu site.</p>
+                    <h6>Tecnologias utilizadas</h6>
+                    <p class="modal-parag">HTML</p>
+                    <p class="modal-parag">CSS</p>
+                    <p class="modal-parag">Javascript</p>
+                    <p class="modal-parag">Bootstrap</p>   
+                    <p class="modal-parag">Django</p>                    
+                </div>
+    
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Fechar</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

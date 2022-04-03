@@ -1,0 +1,52 @@
+body {
+    background-color: #dfe4ea;
+}
+
+h2 {
+    text-align: center;
+    color: #192a56;
+}
+
+.nav-item {
+    font-size: 24px;
+    color: #192a56;
+}
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+p {
+    font-size: 17px;
+    color: #2f3640;
+    
+}
+.text-form {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #c23616;
+}
+
+.modal-content {
+    background-color: #192a56;
+}
+
+.modal-parag {
+    text-align: justify;
+    color:#f5f6fa;
+}
+
+.modal-title, h6 {
+    text-align: center;
+    color: #7f8fa6;
+}
