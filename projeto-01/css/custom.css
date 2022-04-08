@@ -3,7 +3,6 @@ body {
 }
 
 h2 {
-    text-align: center;
     color: #192a56;
 }
 
@@ -50,3 +49,16 @@ p {
     text-align: center;
     color: #7f8fa6;
 }
+
+.cotacao {
+    color: #4a69bd;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.cotacao:hover {
+    color: #0a3d62;
+}
+
+
+
