@@ -1,0 +1,15 @@
+textarea.form-control {
+    width: 100% !important;
+}
+.cad-title {
+    font-size: 36px;
+    text-align: left;
+}
+.cad-text {
+    font-size: 20px;
+    color: darkred;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
