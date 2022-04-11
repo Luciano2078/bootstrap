@@ -20,15 +20,51 @@
 
                 <div class="col">
                     <ul class="nav justify-content-end">
-                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#produtos">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
-                    </ul>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html"><span style="border: 1px solid silver; border-radius: 0.25em; padding: 0.2em; color: black; font-size:18px;"><i class="fa-solid fa-house fa-fw" title="Home"></i> Home</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html"><span style="border: 1px solid silver; border-radius: 0.25em; padding: 0.2em; color: black; font-size:18px;"><i class="fa-solid fa-circle-info fa-fw" title="Info"></i> Sobre</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html"><span style="border: 1px solid silver; border-radius: 0.25em; padding: 0.2em; color: black; font-size:18px;"><i class="fa-solid fa-box-open fa-fw" title="Produto"></i> Produtos</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html"><span style="border: 1px solid silver; border-radius: 0.25em; padding: 0.2em; color: black; font-size:18px;"><i class="fa-solid fa-phone fa-fw" title="Contato"></i> Contato</span></a></li>
                 </div>
             </div>
         </div>
     </header>
+
+    <section class="section" id="carousel">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/img-back.jpg" class="d-block w-100" alt="Backend">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Back-End</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/img-bd.jpg" class="d-block w-100" alt="Banco de dados">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Banco de Dados</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/img-develop.jpg" class="d-block w-100" alt="Frontend">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Front-End</h4>
+                    </div>
+                  </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
 
     <section id="sobre">
         <div class="container">
@@ -176,5 +212,6 @@
 
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f6ab994085.js" crossorigin="anonymous"></script>
 </body>
 </html>

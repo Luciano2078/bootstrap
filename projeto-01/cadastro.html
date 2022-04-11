@@ -21,7 +21,9 @@
 
                 <div class="col">
                     <ul class="nav justify-content-end">
-                        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html"><span style="border: 1px solid silver; border-radius: 0.25em; padding: 0.2em; color: black; font-size:20px;"><i class="fa-solid fa-house fa-fw" title="Home"></i> Home</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html"><span style="border: 1px solid silver; border-radius: 0.25em; padding: 0.2em; color: black; font-size:20px;"><i class="fa-solid fa-circle-info fa-fw" title="Info"></i> Sobre</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html"><span style="border: 1px solid silver; border-radius: 0.25em; padding: 0.2em; color: black; font-size:20px;"><i class="fa-solid fa-phone fa-fw" title="Contato"></i> Contato</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -40,36 +42,41 @@
                 <div class="row">
                     <div class="col">
                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" class="form-control">
+                        <input type="text" name="nome" id="nome" class="form-control" required>
                     </div>
 
                     <div class="col">
                         <label for="email">E-Mail</label>
-                        <input class="form-control" type="text" name="email" id="email">
+                        <input class="form-control" type="text" name="email" id="email" required>
+                    </div>
+
+                    <div class="col">
+                        <label for="telefone">Telefone</label>
+                        <input class="form-control" type="text" name="telefone" id="telefone" required>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
                         <label for="endereco">Endereço</label>
-                        <input class="form-control" type="text" name="endereco" id="endereço">
+                        <input class="form-control" type="text" name="endereco" id="endereço" required>
                     </div>
 
                     <div class="col">
                         <label for="numero">Número</label>
-                        <input class="form-control" type="text" name="numero" id="numero">
+                        <input class="form-control" type="text" name="numero" id="numero" required>
                     </div>
 
                     <div class="col">
                         <label for="bairro">Bairro</label>
-                        <input class="form-control" type="text" name="bairro" id="bairro">
+                        <input class="form-control" type="text" name="bairro" id="bairro" required>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
                         <label for="cidade">Cidade</label>
-                        <input type="text" name="cidade" id="cidade" class="form-control">
+                        <input type="text" name="cidade" id="cidade" class="form-control" required>
                     </div>
 
                     <div class="col">
@@ -85,7 +92,7 @@
 
                     <div class="col">
                         <label for="cep">Cep</label>
-                        <input type="text" name="cep" id="cep" class="form-control">
+                        <input type="text" name="cep" id="cep" class="form-control" required>
                     </div>
                 </div>
 
@@ -141,5 +148,6 @@
 
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f6ab994085.js" crossorigin="anonymous"></script>
 </body>
 </html>
